@@ -10,7 +10,7 @@
 html, body {
   height: 100%;
   width: 100%;
-  scroll-behavior: smooth;
+  scroll-behavior:  auto;
 }
 
 /* Remove decoração de links e listas por padrão */
@@ -74,12 +74,23 @@ nav a:hover {
   text-decoration: underline;
 }
 
-/* Hero */
+#Imagelogo{
+  padding: 15px;
+  width: 20%;
+  height: 20%;
+  border-radius: 50%;
+}
+
 #hero {
   background: linear-gradient(to right, #000000, #585555);
   color: white;
   padding: 3rem 1rem;
   text-align: center;
+}
+#linkprojetos{
+  color: #00c3ff;
+  font-weight: bold;
+  text-decoration: none;
 }
 
 .hero-content h2 {
